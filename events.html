@@ -46,8 +46,78 @@
 
     <!-- Page Content -->
     <div class="container mt-4">
-        <h1>Events Page</h1>
-        <p>Welcome to the events page! Here you can find information about upcoming campus events.</p>
+
+        <!-- Page Title-->
+        <h1>Campus Events</h1>
+        <p>Discover upcoming events on campus and stay connected with the community.</p>
+
+        <!-- Search Section -->
+        <div class="mb-4">
+            <label for="eventSearch" class="form-label">Search Events</label>
+            <input type="text" class="form-control" id="eventSearch" placeholder="Search for events">
+        </div>
+
+        <!-- Filter Section -->
+        <div class="mb-4">
+            <h3>Filter</h3>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="clubs">
+                <label class="form-check-label" for="clubs">
+                    Clubs
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="sports">
+                <label class="form-check-label" for="sports">
+                    Sports
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="academic">
+                <label class="form-check-label" for="academic">
+                    Academic
+                </label>
+            </div>
+
+        </div>
+
+        <!-- Event Cards -->
+        <div class="row">
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Event 1</h5>
+                        <p class="card-text">Description of Event 1.</p>
+                        <button class="btn btn-primary">More Info</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Event 2</h5>
+                        <p class="card-text">Description of Event 2.</p>
+                        <button class="btn btn-primary">More Info</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Event 3</h5>
+                        <p class="card-text">Description of Event 3.</p>
+                        <button class="btn btn-primary">More Info</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
     <!-- Bootstrap JS -->
@@ -57,3 +127,4 @@
     <script src="js/script.js"></script>
 </body>
 </html>
+

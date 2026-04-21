@@ -6,21 +6,21 @@
 // When users click on the event button
 if (eventsBtn) {
     eventsBtn.addEventListener("click", function() {
-        alert("Going to Events Page!");
+        window.location.href = "events.html";
     });
 }
 
 // When users click on the dining button
 if (diningBtn) {
     diningBtn.addEventListener("click", function() {
-        alert("Going to Dining Page!");
+        window.location.href = "dining.html";
     });
 }
 
-// When users click on the resources button
+// When users click on the index button
 if (resourcesBtn) {
     resourcesBtn.addEventListener("click", function() {
-        alert("Going to Resources Page!");
+        window.location.href = "index.html";
     });
 }
 
